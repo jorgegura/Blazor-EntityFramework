@@ -47,7 +47,7 @@ namespace BlazorCRUB.Data
             _db.Remove(objEmployee);
             _db.SaveChanges();
 
-            return "Delete Sucessfully"
+            return "Delete Sucessfully";
         }
     }
 }
